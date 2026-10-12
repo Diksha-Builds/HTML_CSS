@@ -1,0 +1,32 @@
+
+p,button{
+    font-family: Verdana;
+}
+
+.html-course{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.beginner{
+    margin-top: 0;
+    color: rgb(96, 96, 96);
+    margin-bottom: 15px;
+}
+
+.course-info{
+    margin-top: 0;
+    width: 280px;
+}
+
+.get-started-button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

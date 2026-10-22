@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            height: 3000px;
+        }
+
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .left-section{
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-picture
+        {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-right: 10px;
+        }
+
+        .profile-name{
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .add-friend-button{
+            background-color: rgb(67, 91, 186);
+            color: white;
+            font-weight: bold;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 7px;
+            padding-top: 7px;
+            border-radius: 4px;
+            border: none;
+            margin-right: 5px;
+        }
+
+        .message-button{
+            background-color: rgba(210, 207, 207, 0.872);
+            font-weight: bold;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 7px;
+            padding-top: 7px;
+            border-radius: 4px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="profile-picture" src="/Lesson-14/cat1.webp">
+            <div class="profile-name">Oliver Cat</div>
+        </div>
+        <div>
+            <button class="add-friend-button">Add Friend</button>
+            <button class="message-button">Message</button>
+        </div>
+    </div>
+</body>
+</html>
